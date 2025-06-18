@@ -1,3 +1,13 @@
+<style>
+  .callout {
+    border-left: 4px solid #007acc;
+    background-color: #f0f8ff;
+    padding: 1em;
+    margin: 1em 0;
+    font-size: 90%;
+  }
+</style>
+
 <div id="r">
   <h3>R</h3>
 
@@ -8,8 +18,18 @@
     <a href="https://posit.co/products/open-source/rstudio/">RStudio</a>.
   </p>
 
+  <div class="callout">
+    <p>
+      👉 R version 4.1 or newer should be used, which will be achieved 
+      by following the directions for your system below.<br>
+      After installing, if you are comfortable doing so, please execute the commands 
+      <code>install.packages("tidyverse")</code> and 
+      <code>install.packages("gapminder")</code> in the RStudio console ahead of the workshop.
+    </p>
+  </div>
+
   <div>
-    <ul class="nav nav-tabs os-tabs" role="tablist">
+    <ul class="nav nav-tabs" role="tablist">
       <li role="presentation" class="active"><a data-os="windows" href="#rstats-windows" aria-controls="Windows" role="tab" data-toggle="tab">Windows</a></li>
       <li role="presentation"><a data-os="macos" href="#rstats-macos" aria-controls="MacOS" role="tab" data-toggle="tab">MacOS</a></li>
       <li role="presentation"><a data-os="linux" href="#rstats-linux" aria-controls="Linux" role="tab" data-toggle="tab">Linux</a></li>
@@ -28,6 +48,12 @@
           administrator" instead of double-clicking). Otherwise problems may occur later,
           for example when installing R packages.
         </p>
+        <h4>Video Tutorial</h4>
+        <div class="yt-wrapper2">
+        <div class="yt-wrapper">
+        <iframe type="text/html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" src="https://www.youtube-nocookie.com/embed/q0PjTAylwoU?modestbranding=1&playsinline=1&iv_load_policy=3&rel=0" class="yt-frame" allowfullscreen></iframe>
+        </div>
+        </div>
       </article>
       <article role="tabpanel" class="tab-pane" id="rstats-macos">
         <p>
@@ -37,6 +63,12 @@
           Also, please install the
           <a href="https://posit.co/download/rstudio-desktop/">RStudio IDE</a>.
         </p>
+        <h4>Video Tutorial</h4>
+        <div class="yt-wrapper2">
+        <div class="yt-wrapper">
+        <iframe type="text/html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" src="https://www.youtube-nocookie.com/embed/5-ly3kyxwEg?modestbranding=1&playsinline=1&iv_load_policy=3&rel=0" class="yt-frame" allowfullscreen></iframe>
+        </div>
+        </div>
       </article>
       <article role="tabpanel" class="tab-pane" id="rstats-linux">
         <p>
@@ -53,3 +85,4 @@
     </div>
   </div>
 </div>
+
